@@ -1,19 +1,64 @@
-/* Escritorio */
 .tarjeta {
-  width: 300px;
+  background-color: #f4f4ff; /* suave, combina con header */
+  border-radius: 12px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px; /* tamaño fijo, puedes usar % si quieres más responsive */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Móvil */
-@media (max-width: 768px) {
-  .tarjeta {
-    width: 90% !important;   /* ocupa casi todo el ancho */
-    max-width: 400px;
-  }
+.tarjeta:hover {
+  transform: translateY(-5px);
+  box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-@media (max-width: 480px) {
-  .tarjeta {
-    width: 100% !important;  /* ocupa todo el ancho en móviles pequeños */
-    max-width: none;
-  }
+.tarjeta-imagen img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.tarjeta-contenido {
+  padding: 1rem 1.5rem;
+}
+
+.tarjeta-contenido h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.tarjeta-contenido p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.tecnologias {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tecnologias li {
+  background-color: #d0d0ff; /* tonos suaves como header */
+  color: #333;
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+}
+
+.btn-ver {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #5b5bc6;
+  color: white; 
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.btn-ver:hover{
+    background-color: #1c1c69;
 }
