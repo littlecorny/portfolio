@@ -11,3 +11,17 @@
 .tarjetas-container .enlace {
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  .tarjetas-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 1rem;
+  }
+
+  .tarjetas-container .tarjeta {
+    width: 90%;
+    max-width: 320px;
+  }
+}
