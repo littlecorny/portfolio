@@ -16,12 +16,16 @@
   .tarjetas-container {
     flex-direction: column;
     align-items: center;
-    gap: 1.2rem;
-    padding: 1rem;
+    margin: 1rem;
+    gap: 1.5rem;
   }
 
   .tarjetas-container .tarjeta {
-    width: 90%;
-    max-width: 320px;
+        width: 90%;
+        max-width: 400px;
+        text-align: center;
+        margin: 0 auto;
   }
 }
+
+
