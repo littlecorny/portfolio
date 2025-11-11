@@ -1,16 +1,31 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* empuja el footer hacia abajo */
+}
+
+footer {
+  background-color: #ccccff;
+  color: #333;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 600px) {
   footer {
-    background-color: #ccccff;
-    color: 333;
-    text-Align: center;
-    padding: 15px 0;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    font-family: montserrat
+    padding: 10px 0;
   }
 
-  text {
-    margin: 0;
-    font-Size: 14px;
+  footer p {
+    font-size: 12px;
   }
+}
