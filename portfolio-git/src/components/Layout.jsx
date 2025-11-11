@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
 import Tarjetas from "./TarjetasContenedor";
+import "./Layout.css"
 
             export default function Layout() {
               return (

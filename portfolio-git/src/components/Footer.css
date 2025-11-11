@@ -18,6 +18,7 @@ footer {
   padding: 15px 0;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
+  margin-top: auto; /* se queda al fondo */
 }
 
 @media (max-width: 600px) {
