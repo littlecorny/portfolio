@@ -1,9 +1,12 @@
+/* ==============================
+   Tarjetas base (escritorio)
+============================== */
 .tarjeta {
-  background-color: #f4f4ff; /* suave, combina con header */
+  background-color: #f4f4ff;
   border-radius: 12px;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 300px; /* tamaño fijo, puedes usar % si quieres más responsive */
+  width: 300px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -43,7 +46,7 @@
 }
 
 .tecnologias li {
-  background-color: #d0d0ff; /* tonos suaves como header */
+  background-color: #d0d0ff;
   color: #333;
   padding: 0.3rem 0.7rem;
   border-radius: 6px;
@@ -57,8 +60,5 @@
   color: white; 
   padding: 1rem;
   border-radius: 8px;
-}
-
-.btn-ver:hover{
-    background-color: #1c1c69;
+  text-align: cen
 }
