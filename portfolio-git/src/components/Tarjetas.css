@@ -1,38 +1,27 @@
-/* Contenedor de tarjetas */
+/* Contenedor de todas las tarjetas */
 .tarjetas-container {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
   flex-wrap: wrap;
+  gap: 2rem; /* espacio entre tarjetas */
+  justify-content: center;
   padding: 2rem;
   font-family: 'Montserrat', sans-serif;
-
 }
 
+.tarjetas-container .enlace {
+  text-decoration: none;
+}
 
-
-/* ==========================
-   Responsive (móviles/tablets)
-========================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .tarjetas-container {
-    flex-direction: column;   /* apiladas en columna */
-    align-items: center;      /* centradas */
-    gap: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
     padding: 1rem;
   }
 
-  .card {
-    width: 90%;               /* ocupa casi todo el ancho */
-    max-width: 400px;         /* límite para que no se estiren demasiado */
-    font-size: 0.95rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .card {
-    width: 100%;              /* en móviles muy pequeños ocupa todo el ancho */
-    max-width: none;
-    font-size: 0.9rem;
+  .tarjetas-container .tarjeta {
+    width: 90%;
+    max-width: 320px;
   }
 }
