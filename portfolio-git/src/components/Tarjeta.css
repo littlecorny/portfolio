@@ -3,7 +3,7 @@
   border-radius: 12px;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 300px; /* tamaño fijo, puedes usar % si quieres más responsive */
+  width: 300px; /* tamaño fijo en escritorio */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -59,6 +59,39 @@
   border-radius: 8px;
 }
 
-.btn-ver:hover{
-    background-color: #1c1c69;
+.btn-ver:hover {
+  background-color: #1c1c69;
+}
+
+/* ==========================
+   Responsive (móviles/tablets)
+========================== */
+@media (max-width: 768px) {
+  .tarjeta {
+    width: 90%;          /* ocupa casi todo el ancho */
+    max-width: 400px;    /* límite para que no se estire demasiado */
+  }
+
+  .tarjeta-contenido h3 {
+    font-size: 1.1rem;   /* ajustamos tipografía */
+  }
+
+  .tarjeta-contenido p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tarjeta {
+    width: 100%;         /* ocupa todo el ancho en móviles pequeños */
+    max-width: none;
+  }
+
+  .tarjeta-contenido h3 {
+    font-size: 1rem;
+  }
+
+  .tarjeta-contenido p {
+    font-size: 0.85rem;
+  }
 }
