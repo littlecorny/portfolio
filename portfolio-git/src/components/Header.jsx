@@ -16,6 +16,7 @@ export default function Header() {
             <img src={logo} alt="Mi Portfolio Logo" className="logo-img" />
           </Link>
         </div>
+        <h2>Carla Pajuelo | Diseño Web</h2>
 
         {/* Botón hamburguesa */}
         <button

@@ -3,6 +3,10 @@
   padding:0;
 }
 
+h2 {
+  font-weight: 500;
+}
+
 /* Fondo general del header */
 .header {
   background-color: #ccccff;
