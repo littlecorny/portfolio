@@ -1,0 +1,16 @@
+  footer {
+    background-color: #ccccff;
+    color: 333;
+    text-Align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: montserrat
+  };
+
+  text {
+    margin: 0;
+    font-Size: 14px;
+  }

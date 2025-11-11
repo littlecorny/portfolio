@@ -1,0 +1,102 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+/* Fondo general del header */
+.header {
+  background-color: #ccccff;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 6.1rem; /* suficiente */
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Contenedor interno */
+.header-container {
+
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+
+}
+
+/* Logo */
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  display:flex;
+  align-items: center;
+
+}
+
+.logo-img {
+  height: 60px; /* o el tamaño que prefieras */
+  width: auto;
+  margin-right: 1rem;
+}
+
+
+/* Botón hamburguesa visible siempre */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-right: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Barras del icono */
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  transition: all 0.3s ease;
+}
+
+/* Animaciones del icono al abrir */
+.bar1 {
+  transform: rotate(45deg) translateY(8px);
+}
+
+.bar2 {
+  opacity: 0;
+}
+
+.bar3 {
+  transform: rotate(-45deg) translateY(-8px);
+}
+
+/* Menú universal */
+.nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 0;
+  padding: 1rem 3rem;
+  background-color: #ccccffbc;
+  border:none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding-top: 0.6rem;
+  padding-bottom: 1rem;
+  
+}
+
+.nav a:hover {
+    color:#5b5bc6;
+    transition: 0,3s;
+}
