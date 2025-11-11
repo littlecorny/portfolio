@@ -5,12 +5,14 @@
   gap: 2rem;
   flex-wrap: wrap;
   padding: 2rem;
+  font-family: 'Montserrat', sans-serif; /* recuperamos tu fuente */
 }
 
 /* Tarjeta individual */
 .tarjeta {
   width: 18rem;       /* ancho fijo en escritorio */
   flex-shrink: 0;
+  font-family: 'Montserrat', sans-serif; /* aseguramos fuente */
 }
 
 /* ==========================
@@ -27,6 +29,7 @@
   .tarjeta {
     width: 90%;               /* ocupa casi todo el ancho */
     max-width: 400px;         /* límite para que no se estiren demasiado */
+    font-size: 0.95rem;       /* ajustamos tipografía para móvil */
   }
 }
 
@@ -34,5 +37,6 @@
   .tarjeta {
     width: 100%;              /* en móviles muy pequeños ocupa todo el ancho */
     max-width: none;
+    font-size: 0.9rem;         /* fuente un poco más pequeña */
   }
 }
