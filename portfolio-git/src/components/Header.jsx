@@ -34,18 +34,13 @@ export default function Header() {
       {/* Menú universal */}
       {open && (
         <nav className="nav">
-          <Link to="/" onClick={() => setOpen(false)}>
-            Inicio
+          <Link to="https://www.linkedin.com/in/carla-pajuelo-paniagua-06425820a/" onClick={() => setOpen(false)}>
+            LinkedIn
           </Link>
           <Link to="https://carlapajuelopaniag.wixsite.com/portfolio" onClick={() => setOpen(false)}>
             Portfolio Diseño
           </Link>
-          <Link to="/sobre-mi" onClick={() => setOpen(false)}>
-            Sobre mí
-          </Link>
-          <Link to="/contacto" onClick={() => setOpen(false)}>
-            Contacto
-          </Link>
+   
         </nav>
       )}
     </header>
