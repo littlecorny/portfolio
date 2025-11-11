@@ -108,38 +108,34 @@ h2 {
 
 @media (max-width: 768px) {
   .header {
-    height: auto;
-    padding: 0.5rem 1rem;
+    height: 6.1rem; /* se mantiene igual */
+    padding: 0 1rem;
   }
 
   .header-container {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0.8rem 1rem;
+    padding: 0.5rem 1rem;
   }
 
   .logo {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+    font-size: 1rem; /* texto más pequeño */
   }
 
   .logo-img {
-    height: 45px;
+    height: 45px; /* reduce ligeramente el logo */
     margin-right: 0.5rem;
   }
 
   .hamburger {
-    margin-right: 0;
-    align-self: flex-end;
+    margin-right: 1rem;
   }
 
   .nav {
-    width: 100%;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
   }
 
   .nav a {
-    display: block;
-    padding: 0.8rem 0;
-    border-bottom: 1px
-  }}
+    font-size: 0.9rem; /* enlaces más pequeños */
+    padding-top: 0.4rem;
+    padding-bottom: 0.6rem;
+  }
+}
