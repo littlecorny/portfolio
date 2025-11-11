@@ -1,25 +1,6 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "portfolio-git/package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "dist" }
-    }
-  ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "headers": { "cache-control": "max-age=0" },
-      "continue": true
-    },
-    {
-      "src": "/(.*)\\.(js|css|png|jpg|jpeg|svg|gif|ico|json|map)$",
-      "dest": "/$1.$2"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
