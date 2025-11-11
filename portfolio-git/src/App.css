@@ -40,3 +40,29 @@
 .read-the-docs {
   color: #888;
 }
+
+footer {
+  background-color: #ccccff;
+  color: #333;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: auto; /* ✅ empuja el footer al fondo */
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Responsive (móviles) */
+@media (max-width: 600px) {
+  footer {
+    padding: 10px 0;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+}
