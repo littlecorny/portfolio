@@ -1,66 +1,58 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h2 {
   font-weight: 500;
 }
 
-/* Fondo general del header */
+/* ===== HEADER GENERAL ===== */
 .header {
   background-color: #ccccff;
   width: 100%;
   position: sticky;
   top: 0;
   left: 0;
-  height: 6.1rem; /* suficiente */
-  box-sizing: border-box;
+  height: 6.1rem; /* mantenemos la altura */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 1000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-
-/* Contenedor interno */
+/* ===== CONTENEDOR INTERNO ===== */
 .header-container {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* <- esto centra verticalmente */
-  height: 100%; /* <- asegura que ocupe toda la altura del header */
+  align-items: center; /* ✅ centra verticalmente los elementos */
+  height: 100%; /* ✅ ocupa toda la altura del header */
   padding: 1rem 2rem;
-  box-sizing: border-box;
 }
 
-
-/* Logo */
 .logo {
-  font-size: 1.4rem;
-  font-weight: bold;
-  display:flex;
-  align-items: center;
-
+  display: flex;
+  align-items: center; /* ✅ centra verticalmente el logo y el texto */
 }
 
 .logo-img {
-  height: 60px; /* o el tamaño que prefieras */
+  height: 60px;
   width: auto;
   margin-right: 1rem;
 }
 
-
-/* Botón hamburguesa visible siempre */
 .hamburger {
   display: flex;
   flex-direction: column;
+  justify-content: center; /* ✅ centra las barras dentro del botón */
   gap: 5px;
-  margin-right: 2rem;
   background: none;
   border: none;
   cursor: pointer;
+  padding: 0.5rem;
 }
 
-/* Barras del icono */
+/* ===== BARRAS DEL BOTÓN ===== */
 .bar {
   width: 25px;
   height: 3px;
@@ -68,7 +60,7 @@ h2 {
   transition: all 0.3s ease;
 }
 
-/* Animaciones del icono al abrir */
+/* Animaciones del icono */
 .bar1 {
   transform: rotate(45deg) translateY(8px);
 }
@@ -81,7 +73,7 @@ h2 {
   transform: rotate(-45deg) translateY(-8px);
 }
 
-/* Menú universal */
+/* ===== MENÚ ===== */
 .nav {
   display: flex;
   flex-direction: column;
@@ -89,7 +81,7 @@ h2 {
   margin-top: 0;
   padding: 1rem 3rem;
   background-color: #afaff5f5;
-  border:none;
+  border: none;
 }
 
 .nav a {
@@ -98,32 +90,38 @@ h2 {
   font-weight: 500;
   padding-top: 0.6rem;
   padding-bottom: 1rem;
-  
 }
 
 .nav a:hover {
-    color:#5b5bc6;
-    transition: 0,3s;
+  color: #5b5bc6;
+  transition: 0.3s;
 }
 
-
+/* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .header-container {
+    padding: 0.5rem 1rem;
     height: 100%;
-    align-items: center; /* fuerza el centrado */
-    padding: 0.8rem 1.2rem;
-  }
-
-  .logo {
-    font-size: 1rem;
   }
 
   .logo-img {
     height: 45px;
+    margin-right: 0.5rem;
+  }
+
+  h2 {
+    font-size: 1rem; /* 🔹 reduce el texto en móvil */
   }
 
   .hamburger {
-    margin-top: 0; /* por si acaso estaba empujando hacia abajo */
+    margin-right: 0.5rem;
+  }
+
+  .nav {
+    padding: 0.8rem 1.5rem;
+  }
+
+  .nav a {
+    font-size: 0.9rem;
   }
 }
-
