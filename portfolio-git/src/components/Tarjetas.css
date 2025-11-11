@@ -6,10 +6,7 @@
   flex-wrap: wrap;
   padding: 2rem;
   font-family: 'Montserrat', sans-serif;
-
 }
-
-
 
 /* ==========================
    Responsive (móviles/tablets)
@@ -22,7 +19,7 @@
     padding: 1rem;
   }
 
-  .card {
+  .tarjeta {
     width: 90%;               /* ocupa casi todo el ancho */
     max-width: 400px;         /* límite para que no se estiren demasiado */
     font-size: 0.95rem;
@@ -30,7 +27,7 @@
 }
 
 @media (max-width: 480px) {
-  .card {
+  .tarjeta {
     width: 100%;              /* en móviles muy pequeños ocupa todo el ancho */
     max-width: none;
     font-size: 0.9rem;
