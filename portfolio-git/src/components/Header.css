@@ -24,13 +24,14 @@ h2 {
 
 /* Contenedor interno */
 .header-container {
-
-  padding: 1rem 2rem;
   display: flex;
-  justify-content:space-between;
-  align-items: center;
-
+  justify-content: space-between;
+  align-items: center; /* <- esto centra verticalmente */
+  height: 100%; /* <- asegura que ocupe toda la altura del header */
+  padding: 1rem 2rem;
+  box-sizing: border-box;
 }
+
 
 /* Logo */
 .logo {
@@ -107,39 +108,22 @@ h2 {
 
 
 @media (max-width: 768px) {
-  .header {
-    height: 6.1rem; /* se mantiene igual */
-    padding: 0 1rem;
-  }
-
-  h2 {
-    font-size: 1rem;
-  }
-
   .header-container {
-    padding: 0.5rem 1rem;
+    height: 100%;
+    align-items: center; /* fuerza el centrado */
+    padding: 0.8rem 1.2rem;
   }
 
   .logo {
-    font-size: 1rem; /* texto más pequeño */
+    font-size: 1rem;
   }
 
   .logo-img {
-    height: 45px; /* reduce ligeramente el logo */
-    margin-right: 0.5rem;
+    height: 45px;
   }
 
   .hamburger {
-    margin-right: 1rem;
-  }
-
-  .nav {
-    padding: 0.5rem 1.5rem;
-  }
-
-  .nav a {
-    font-size: 0.9rem; /* enlaces más pequeños */
-    padding-top: 0.4rem;
-    padding-bottom: 0.6rem;
+    margin-top: 0; /* por si acaso estaba empujando hacia abajo */
   }
 }
+
