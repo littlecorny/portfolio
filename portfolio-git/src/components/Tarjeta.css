@@ -63,6 +63,10 @@
   text-align: cen
 }
 
+.btn-ver:hover {
+  background-color: #232389;
+}
+
 @media (max-width: 600px) {
   .tarjetas {
         width: 90%;
