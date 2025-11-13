@@ -14,9 +14,8 @@
 
 @media (max-width: 600px) {
   .tarjetas-container {
-    flex-direction: column;
-    margin: 1rem;
-    gap: 1.5rem;
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
   }
 
   .tarjetas-container .tarjeta {
