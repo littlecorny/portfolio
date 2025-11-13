@@ -1,16 +1,113 @@
-# React + Vite
+# 🎨 Mi Portfolio | Colección de Diseño Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-18-blue?logo=react&logoColor=white)](https://react.dev/)  
+[![Vite](https://img.shields.io/badge/Vite-4-brightgreen?logo=vite&logoColor=white)](https://vitejs.dev/)  
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)  
+[![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)  
 
-Currently, two official plugins are available:
+Una web creada con **React** y **Vite** para mostrar mis diseños web y documentar mi evolución como desarrolladora.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🔗 Enlaces
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Despliegue del proyecto:** [🔗 https://portfolio-cpp.vercel.app/](#) 
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Estructura del proyecto
+
+portfolio-git/
+│
+├─ public/ # Archivos estáticos
+├─ src/
+│ ├─ assets/ # Imágenes, iconos, etc.
+│ ├─ components/ # Footer, Header, Tarjetas, Layout, etc.
+│ └─ pages/ # Páginas principales
+├─ App.jsx # Componente raíz
+├─ main.jsx # Punto de entrada
+├─ index.html
+├─ package.json
+└─ README.md
+
+---
+
+## ✨ Funcionalidades Destacadas
+
+<div style="display:flex; flex-direction: column; gap: 10px;">
+
+**💻 Proyectos:**  
+Tarjetas con título, descripción, tecnologías usadas y enlace al proyecto.
+
+**📱 Responsive:**  
+Diseño adaptable a móviles, tablets y escritorio.
+
+**🌐 Navegación:**  
+React Router para moverse entre páginas sin recargar.
+
+**🖼 Layout consistente:**  
+Header y Footer visibles en todas las páginas.
+
+</div>
+---
+
+## 💻 Instalación y ejecución
+
+Sigue estos pasos para ejecutar el proyecto en tu máquina local:
+
+### 1️⃣ Clonar el repositorio
+
+git clone https://github.com/tuusuario/portfolio-git.git
+cd portfolio-git
+
+
+### 2️⃣ Instalar dependencias
+
+npm install
+
+Esto instalará todas las dependencias necesarias, incluyendo React, Vite, React Router y ESLint.
+
+### 3️⃣ Configuración de React en Vite
+
+Este proyecto usa Vite como bundler y servidor de desarrollo con Fast Refresh:
+
+@vitejs/plugin-react
+: Usa Babel para recarga rápida (Fast Refresh).
+
+@vitejs/plugin-react-swc
+: Usa SWC para recarga rápida y compilación más rápida.
+
+⚠️ El React Compiler no está habilitado por defecto para no afectar el rendimiento.
+Para habilitarlo, revisa la [documentación oficial](https://react.dev/learn/react-compiler/installation)
+
+
+### 4️⃣ Iniciar el servidor de desarrollo
+
+npm run dev
+
+Abre http://localhost:5173 en tu navegador.
+
+
+### 5️⃣ Compilar para producción
+
+npm run build
+
+Vite generará una versión optimizada del proyecto lista para deploy.
+
+---
+
+🌐 Deploy
+
+El proyecto está desplegado en Vercel y listo para ser compartido como portfolio público:
+
+Ver [Portfolio](https://portfolio-cpp.vercel.app/)
+
+---
+
+## 🎨 Créditos / Recursos
+
+- **Iconos:** [Link a recurso]  
+- **Colores y fuentes:** Propios  
+- **ESLint configuración base:** Vite React Template
+
+
