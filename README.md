@@ -58,14 +58,16 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina local:
 
 ### 1️⃣ Clonar el repositorio
 
+```bash
 git clone https://github.com/tuusuario/portfolio-git.git
 cd portfolio-git
-
+```
 
 ### 2️⃣ Instalar dependencias
 
+```bash
 npm install
-
+```
 Esto instalará todas las dependencias necesarias, incluyendo React, Vite, React Router y ESLint.
 
 ### 3️⃣ Configuración de React en Vite
@@ -83,16 +85,16 @@ Para habilitarlo, revisa la [documentación oficial](https://react.dev/learn/rea
 
 
 ### 4️⃣ Iniciar el servidor de desarrollo
-
+```bash
 npm run dev
-
+```
 Abre http://localhost:5173 en tu navegador.
 
 
 ### 5️⃣ Compilar para producción
-
+```bash
 npm run build
-
+```
 Vite generará una versión optimizada del proyecto lista para deploy.
 
 ---
