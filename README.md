@@ -49,6 +49,7 @@ React Router para moverse entre páginas sin recargar.
 Header y Footer visibles en todas las páginas.
 
 </div>
+
 ---
 
 ## 💻 Instalación y ejecución
