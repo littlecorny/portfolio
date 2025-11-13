@@ -99,18 +99,19 @@ Vite generará una versión optimizada del proyecto lista para deploy.
 
 ---
 
-🌐 Deploy
+### 🌐 Deploy
 
-El proyecto está desplegado en Vercel y listo para ser compartido como portfolio público:
+El proyecto está desplegado en **Vercel**:
 
 Ver [Portfolio](https://portfolio-cpp.vercel.app/)
 
 ---
 
-## 🎨 Créditos / Recursos
+### 📬 Contacto
 
-- **Iconos:** [Link a recurso]  
-- **Colores y fuentes:** Propios  
-- **ESLint configuración base:** Vite React Template
+📧 littlecorny | https://github.com/littlecorny
+🌐 https://carlapajuelopaniag.wixsite.com/portfolio
+
+Proyecto creado con fines educativos.
 
 
