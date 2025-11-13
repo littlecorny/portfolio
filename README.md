@@ -9,12 +9,6 @@ Una web creada con **React** y **Vite** para mostrar mis diseños web y document
 
 ---
 
-## 🔗 Enlaces
-
-- **Despliegue del proyecto:** [🔗 https://portfolio-cpp.vercel.app/](#) 
-
----
-
 ## 📂 Estructura del proyecto
 
 portfolio-git/
@@ -101,9 +95,7 @@ Vite generará una versión optimizada del proyecto lista para deploy.
 
 ### 🌐 Deploy
 
-El proyecto está desplegado en **Vercel**:
-
-Ver [Portfolio](https://portfolio-cpp.vercel.app/)
+- **Despliegue del proyecto en Vercel:** [🔗 https://portfolio-cpp.vercel.app/](#) 
 
 ---
 
