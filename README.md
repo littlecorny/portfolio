@@ -11,6 +11,7 @@ Una web creada con **React** y **Vite** para mostrar mis diseños web y document
 
 ## 📂 Estructura del proyecto
 
+```plaintext
 portfolio-git/
 │
 ├─ public/ # Archivos estáticos
@@ -23,7 +24,7 @@ portfolio-git/
 ├─ index.html
 ├─ package.json
 └─ README.md
-
+```
 ---
 
 ## ✨ Funcionalidades Destacadas
