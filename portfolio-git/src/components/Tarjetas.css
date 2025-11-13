@@ -3,6 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 2rem; /* espacio entre tarjetas */
+  justify-content: center;
   padding: 2rem;
   font-family: 'Montserrat', sans-serif;
 }
